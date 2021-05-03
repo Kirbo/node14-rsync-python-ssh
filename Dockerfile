@@ -4,7 +4,8 @@ RUN apk add --update \
   rsync \
   python \
   openssh \
-  git
+  git \
+  sshpass
 
 
 # docker build . -t kirbownz/node14-rsync-python-ssh:latest
